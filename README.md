@@ -45,13 +45,10 @@ This project implements the dot product calculation of two 4-element vectors usi
 
 ### Files Structure
 ```
-├── src/
-│   ├── dot_product.v          # Main design file
-│   └── testbench.v            # Simulation testbench
-├── constraints/
-│   └── basys3.xdc            # Pin constraints for Basys3
-├── bitstream/
-│   └── dot_product.bit       # Pre-compiled bitstream
+├── dot_product.v          # Main design file
+|── testbench.v            # Simulation testbench
+|── basys3.xdc            # Pin constraints for Basys3
+├──dot_product.bit       # Pre-compiled bitstream
 └── README.md
 ```
 
@@ -114,7 +111,7 @@ Run simulation:
 run_simulation
 ```
 
-## 📁 Repository Contents
+##  Repository Contents
 
 - `dot_product.v` - Main Verilog design file
 - `testbench.v` - Simulation testbench
@@ -125,10 +122,4 @@ run_simulation
 
 This project was developed as part of COL215 - Digital Logic and System Design course at IIT Delhi.
 
-**Authors**: Preksha Rathal (2024CS50987) & Kesar Shah (2024CS10132)
 
-
-
----
-
-**Note**: The design includes optimizations for both simulation and hardware deployment, with different timing parameters used in each environment as noted in the code comments.
